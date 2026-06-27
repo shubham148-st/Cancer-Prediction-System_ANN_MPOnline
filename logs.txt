@@ -1,0 +1,32 @@
+(cnnsat) PS C:\projects\assignments\ANN-project> & C:/Users/purbe/.conda/envs/cnnsat/python.exe c:/projects/assignments/ANN-project/train.py
+2026-06-26 21:13:27,201 - INFO - Loading data from dataset.csv...
+2026-06-26 21:13:27,206 - INFO - Splitting dataset into training and testing sets...
+2026-06-26 21:13:28,578 - INFO - Starting training for 50 epochs...
+2026-06-26 21:13:28,619 - INFO - Epoch [1/50] - Average Loss: 0.3994
+2026-06-26 21:13:28,858 - INFO - Epoch [10/50] - Average Loss: 0.0698
+2026-06-26 21:13:29,127 - INFO - Epoch [20/50] - Average Loss: 0.0027
+2026-06-26 21:13:29,421 - INFO - Epoch [30/50] - Average Loss: 0.0005
+2026-06-26 21:13:29,664 - INFO - Epoch [40/50] - Average Loss: 0.0003
+2026-06-26 21:13:29,919 - INFO - Epoch [50/50] - Average Loss: 0.0001
+2026-06-26 21:13:29,919 - INFO - Evaluating the model on the test set...
+2026-06-26 21:13:29,920 - INFO - Test Accuracy: 0.9737 (111/114 correct)
+2026-06-26 21:13:29,920 - INFO - Saving model weights and preprocessing artifacts...
+2026-06-26 21:13:29,929 - INFO - Training complete.
+
+
+
+(cnnsat) PS C:\projects\assignments\ANN-project> & C:/Users/purbe/.conda/envs/cnnsat/python.exe c:/projects/assignments/ANN-project/predict.py
+--------------------------------------------------
+Inference Results:
+Class mapping: 1 = Benign, 0 = Malignant
+--------------------------------------------------
+Sample 1:
+  -> Predicted Probability (Benign): 0.0000
+  -> Predicted Class: Malignant
+  -> Actual Class:    Malignant
+--------------------------------------------------
+Sample 2:
+  -> Predicted Probability (Benign): 0.0000
+  -> Predicted Class: Malignant
+  -> Actual Class:    Malignant
+--------------------------------------------------
